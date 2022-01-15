@@ -15,7 +15,7 @@ Should be accepted by most cheap PCB factories without applying a price multipli
 
 I have paid only $7 for 5 pcs on jlcpcb.com
 
-![V188 PCB](https://github.com/b-dmitry1/V188/blob/main/V188pcb.jpg)
+![V188 PCB](https://github.com/b-dmitry1/V188/blob/main/pictures/V188pcb.jpg)
 
 ICs:
 
@@ -33,4 +33,4 @@ Please do not connect 5 V ICs/devices directly to FPGA!
 
 Refer to Cyclone IV datasheet for a voltage overshoot diagrams.
 
-![EP4CE55](https://github.com/b-dmitry1/V188/blob/main/EP4CE55.jpg)
+![EP4CE55](https://github.com/b-dmitry1/V188/blob/main/pictures/EP4CE55.jpg)

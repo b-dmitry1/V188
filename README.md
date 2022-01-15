@@ -30,7 +30,7 @@ Microcode example for table translation (XLAT) instruction:
 	STOREREG8 AL    ; Save the result into AL register
 	END             ; Go to a next instruction
 
-![V188 diagram](https://github.com/b-dmitry1/V188/blob/main/V188diagram.png)
+![V188 diagram](https://github.com/b-dmitry1/V188/blob/main/pictures/V188diagram.png)
 
 To play Dune 2 and Wolfenstein 3D just enable 286 CPU detection in the mcode.asm file:
 
@@ -38,7 +38,7 @@ To play Dune 2 and Wolfenstein 3D just enable 286 CPU detection in the mcode.asm
     
 Comment this line, compile and update the project firmware. This line should be uncommented if you want to run Windows or Minix in 16-bit real mode.
 
-![V188](https://github.com/b-dmitry1/V188/blob/main/V188.jpg)
+![V188](https://github.com/b-dmitry1/V188/blob/main/pictures/V188.jpg)
 
 ### Printed circuit board (PCB)
 PCB Gerber files can be found in a Gerber directory:
@@ -101,9 +101,9 @@ https://github.com/b-dmitry1/e86r
 
 Just write an 504 MB image on SD card like described in the STM32 section of e86r.
 
-![Game](https://github.com/b-dmitry1/V188/blob/main/ColorLines.jpg)
+![Game](https://github.com/b-dmitry1/V188/blob/main/pictures/ColorLines.jpg)
 
-![Game](https://github.com/b-dmitry1/V188/blob/main/Solit.jpg)
+![Game](https://github.com/b-dmitry1/V188/blob/main/pictures/Solit.jpg)
 
 ### Known problems
 * USB detection / hot plugging sometimes fails.
