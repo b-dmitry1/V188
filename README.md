@@ -38,6 +38,11 @@ Comment this line, compile and update the project firmware. This line should be 
 
 ![V188](https://github.com/b-dmitry1/V188/blob/main/V188.jpg)
 
+### Printed circuit board (PCB)
+PCB Gerber files can be found in a Gerber directory:
+
+https://github.com/b-dmitry1/V188/tree/main/Gerber
+
 ### BIOS
 Please use this compact BIOS:
 
@@ -93,6 +98,10 @@ Images from e86r project will work good:
 https://github.com/b-dmitry1/e86r
 
 Just write an 504 MB image on SD card like described in the STM32 section of e86r.
+
+![Game](https://github.com/b-dmitry1/V188/blob/main/ColorLines.jpg)
+
+![Game](https://github.com/b-dmitry1/V188/blob/main/Solit.jpg)
 
 ### Known problems
 * USB detection / hot plugging sometimes fails.
