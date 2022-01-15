@@ -3,10 +3,10 @@
 FPGA 80186 IBM PC compatible system for Altera Cyclone IV (EP4CE15F23/EP4CE55F23).
 
 * Compact CPU implementation (CPU can fit in 1500-2300 LEs and 4-6 M9K ROM blocks!).
-* Easy to understand extensible FPGA-accelerated microcode.
-* Cheap 4-layer PCB.
-* A minimal set of cheap external components is required. All the electronic components can be easily found on AliExpress or eBay.
-* Can be used with cheaper FPGA devices if you don't need music in games.
+* Easy-to-understand extensible FPGA-accelerated microcode.
+* Inexpensive 4-layer PCB.
+* A minimal set of inexpensive external components is required. All the electronic components can be easily found on AliExpress or eBay.
+* Can be used with lower capacity FPGA devices if you don't need music in games.
 * Up to 50 MHz input clock speed.
 
 The CPU is a simple **stack virtual machine** with a specialized reduced instruction set.
@@ -15,7 +15,7 @@ Execution algorithm:
 
 1. The VM fetches an opcode from system memory pointed by CS:IP.
 2. There is a table of instruction code locations at the beginning of a microcode file. Using a loaded opcode value the VM starts processing microcode by table-jumping.
-3. Sequentially executing microcode instructions VM emulates real CPU behavior.
+3. VM emulates real CPU behavior by sequentially executing microcode instructions.
 4. When END microcode instruction is executed VM resets temporary state registers and instruction prefixes, checks pending interrupt requests, and repeats the algorithm from step 1.
 
 Microcode example for table translation (XLAT) instruction:
@@ -99,6 +99,8 @@ USB needs a special BIOS driver to work properly.
 ## Compiling
 
 Please use Quartus 13.0sp1 to compile the project.
+
+To compile from a command line use "compile.bat" script.
 
 ## Disk images
 
