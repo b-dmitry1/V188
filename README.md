@@ -10,12 +10,12 @@ FPGA 80186 IBM PC compatible system for Altera Cyclone IV (EP4CE15F23/EP4CE55F23
 
 The CPU is a simple **stack virtual machine** with a specialized reduced instruction set.
 
-Execution algorythm:
+Execution algorithm:
 
 1. The VM fetches an opcode from system memory pointed by CS:IP.
 2. There is a table of instruction code locations in the beginning of a microcode file. Using a loaded opcode value the VM starts processing microcode by table-jumping.
 3. Sequentally executing microcode instructions VM emulates real CPU behaviour.
-4. When END microcode instruction is executed VM resets temporary state registers and instruction prefixes, checks pending interrupt requests, and repeats the algorythm from the step 1.
+4. When END microcode instruction is executed VM resets temporary state registers and instruction prefixes, checks pending interrupt requests, and repeats the algorithm from the step 1.
 
 Microcode example for table translation (XLAT) instruction:
 
