@@ -71,24 +71,6 @@ module Main(
 
 wire clk2;
 
-reg [5:0] probe_div;
-reg probe_clk;
-
-always @(posedge clk60)
-begin
-	probe_div <= probe_div == 6'd39 ? 6'd0 : probe_div + 6'd1;
-	
-	probe_clk <= ~|probe_div;
-end
-
-wire probe_txd;
-Probe probe(
-	.clk(probe_clk),
-	.inputs({dm2, dp2, dm1, dp1}),
-	.txd(probe_txd)
-	);
-
-
 assign ch_rxd = com1txd;
 
 assign com1rxd = ch_txd;
