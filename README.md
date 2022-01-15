@@ -30,6 +30,8 @@ Microcode example for table translation (XLAT) instruction:
 	STOREREG8 AL    ; Save the result into AL register
 	END             ; Go to a next instruction
 
+![V188 diagram](https://github.com/b-dmitry1/V188/blob/main/V188diagram.png)
+
 To play Dune 2 and Wolfenstein 3D just enable 286 CPU detection in the mcode.asm file:
 
     %define SHOW_8086
