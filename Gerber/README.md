@@ -11,6 +11,12 @@ Technology:
 * Track-to-pad min 0.127 mm.
 * Track-to-track min 0.127 mm.
 
+Should be accepted by most cheap PCB factories without applying a price multiplier.
+
+I have paid only $7 for 5 pcs on jlcpcb.com
+
+![V188 PCB](https://github.com/b-dmitry1/V188/blob/main/V188pcb.jpg)
+
 ICs:
 
 * EP4CE55F23C8N - FPGA
@@ -27,4 +33,4 @@ Please do not connect 5 V ICs/devices directly to FPGA!
 
 Refer to Cyclone IV datasheet for a voltage overshoot diagrams.
 
-![V188 PCB](https://github.com/b-dmitry1/V188/blob/main/V188pcb.jpg)
+![EP4CE55](https://github.com/b-dmitry1/V188/blob/main/EP4CE55.jpg)
