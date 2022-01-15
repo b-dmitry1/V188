@@ -86,6 +86,10 @@ Only 504 MB will be available due to 16-bit BIOS's limitations.
 
 ## USB
 
+This version contains a new USB module with a dedicated parallel processing core designed to operate independently from a main CPU.
+Firmware for this fast module is not completed.
+Please use an old implementation from deprecated/USB folder or a Serial Port as a keyboard.
+
 There are 4 USB ports on the board.
 In this version only 2 low-speed ports are available.
 The first one should be used for a keyboard and the second one for mouse.
@@ -118,4 +122,4 @@ Just write an 504 MB image on an SD card as described in the STM32 section of e8
 
 The project is provided "as is" without any warranty. Use at your own risk.
 
-Please tell me if you find some bug or if you plan to port it to another platform.
+Please contact me if you find any bug or if you plan to port it to another platform.
