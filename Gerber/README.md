@@ -11,7 +11,7 @@ Technology:
 * Track-to-pad min 0.127 mm.
 * Track-to-track min 0.127 mm.
 
-Should be accepted by most cheap PCB factories without applying a price multiplier.
+Should be accepted by most popular PCB factories without applying a price multiplier.
 
 I have paid only $7 for 5 pcs on jlcpcb.com
 
