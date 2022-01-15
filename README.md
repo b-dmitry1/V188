@@ -74,9 +74,10 @@ AdLib consumes a lot of FPGA resources. Precise YM3812 emulation may require 30K
 
 * Very simple and compact finite state machine design.
 * Multiple channels. Additional channels can be easily added.
+* Channel priorites defined by their order.
 * Different bus widths.
 * Automatic SDRAM refresh.
-* Designed for cheap 16/32 megabyte SDRAM ICs.
+* Designed for a low-cost 16/32 megabyte SDRAM ICs.
 
 ## Memory card interface
 
